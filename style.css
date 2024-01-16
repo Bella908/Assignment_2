@@ -9,11 +9,14 @@
 .primary {
     color: #cf6a05;
 }
-#colo{
+
+#colo {
     color: #fff;
     background: #cf6a05;
     text-align: center;
+
 }
+
 #bold {
     color: #cf6a05;
     font-family: Mulish;
@@ -86,6 +89,8 @@ nav {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
     padding-top: 70px;
     margin-right: 135px;
     margin-left: 135px;
@@ -136,13 +141,118 @@ nav {
 
 .box {
     display: inline-flex;
+    padding: 16px;
+    align-items: center;
+    margin-left: 230px;
+    margin-top: 30px;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-bottom: 106px;
+
+}
+
+.popular_tours{
+    display: flex;
+    align-items: center;
+    margin: 135px;
+}
+
+.pop_txt_1{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 16px;
+}
+.pop_txt_2{
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
 padding: 16px;
-align-items: center;
-margin-left: 230px;
-margin-top: 30px;
-gap: 24px;
+}
+.pop_txt_2 li {
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+padding: 16px;
+}
+
+.btn-pri{
+    width: 174px;
+height: 52px;
 border-radius: 8px;
-background: rgba(255, 255, 255, 0.30);
-margin-bottom: 106px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-weight: 800;
+border: none;
+margin-top: 32px;
+}
+
+.pop_img{
+    width: 100%;
+}
+
+@media screen and (max-width : 600px) {
+    header {
+        padding: 20px;
+    }
+
+    .logo {
+        flex-direction: row;
+    }
+
+    header img {
+        padding-left: 20px;
+    }
+
+    .ban_txt_1 {
+
+        font-size: 22px;
+        padding-top: 32px;
+    }
+    .ban_txt_2{
+        font-size: 14px;
+
+    }
+
+    nav ul {
+        flex-direction: column;
+        display:none;
+    }
+
+    .box {
+        flex-direction: column;
+        margin-left: 80px;
+
+    }
+    .fild{
+        width: 255px;
+height: 52px;
+    }
+    .banner {
+        padding-top: 18px;
+        margin-left: 40px;
+    
+    }
+
+    .popular_tours{
+        flex-direction: column;
+        margin-left: 40px;
+        margin-top: 24px;
+    }
+    .btn-pri{
+        margin-bottom: 35px;
+    }
 
 }
