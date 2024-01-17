@@ -292,6 +292,192 @@ font-weight: 800;
 
 }
 
+.box_img1, .box_img2, .box_img3
+{
+    width: 64px;
+height: 64px;
+padding-left: 32px;
+padding-top: 32px;
+}
+
+.box_text{
+    color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-top: 32px;
+padding-left: 32px;
+
+}
+
+.box_text_2{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+padding-top: 16px;
+padding-left: 32px;
+}
+.box1{
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+    width: 573px;
+height: 284px;
+flex-shrink: 0;
+margin-left: 135px;
+margin-top: 48px;
+
+
+}
+
+.box2 , .box3 {
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+   
+    margin-top: 48px;
+
+}
+.box2{
+   margin-left: 80px;
+}
+
+.box3{
+    margin-left: 450px;
+}
+
+
+
+.box2 {
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+
+.box3{
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+
+}
+
+.cho_txt_1{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 100px;
+}
+
+.cho_txt_2{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+}
+
+.chose_dis{
+      display: flex;
+      align-items: center;
+      
+
+}
+
+
+footer h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+    text-decoration: none;
+    padding-top: 110px;
+    text-align: center;
+
+
+}
+footer h5{
+    color: #5A5A5D;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+text-align: center;
+padding-top: 15px;
+}
+
+.back_img{
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),
+        url(../Assignment_2/Images/japan.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+
+.own img{
+    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+}
+
+.back_txt{
+
+    color: #131318;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 300px;
+    
+
+}
+.btn{
+    margin-left: 660px;
+    margin-bottom: 300px;
+}
+h5.back_txt:hover {
+    color: rgb(255, 255, 255);
+  }
+
+
+
+footer{
+    background-color: rgba(19, 19, 24, 0.05);
+    
+    margin-top: 100px;
+
+    margin-bottom: auto;
+}
+    
+.social_media{
+    margin-left: 660px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.Rights{
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 110px;
+
+
+}
 
 @media screen and (max-width : 600px) and (min-width : 400px) {
     header {
@@ -364,5 +550,32 @@ font-weight: 800;
         height: 300px;
         flex-shrink: 0;
     }
+    .chose_dis{
+        flex-direction: column;
+    }
+
+    .box1 , .box2 , .box3{
+        margin-left:30px ;
+    }
+
+    .btn{
+        margin-left: 196px;
+        margin-bottom: 300px;
+    }
+    .back_txt{
+        font-size: 45px;
+        padding-top: 130px;
+    }
+
+    .back_img{
+        margin-left: 20px;
+    }
+
+    .social_media{
+        margin-left: 200px;
+    }
+        
+
+
 
 }
